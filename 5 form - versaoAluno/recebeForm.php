@@ -7,7 +7,7 @@ if ($_POST["senha"] == $_POST["firstname"] || $_POST["senha"] == $_POST["lastnam
 	$senha = "<li>Senha fraca</li>";
 	$senha2 = "<li>Informe senha mais segura</li>";
 	header ("Location:index.php?senha=".$senha .$senha2 );
-
+	exit();
 } else {
 	$msgErro="";
 	if ($_POST["firstname"]==""){
