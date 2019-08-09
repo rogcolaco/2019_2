@@ -22,6 +22,19 @@
 			</nav>
 		</header>
 		<section id="principal">
+			<div>
+				<ul>
+					<?php
+						if(isset($_GET["senha"])){
+							echo $_GET["senha"];
+						} else {
+							if (isset($_GET["msgErro"])){
+							echo $_GET["msgErro"];
+							}
+						}
+					?>
+				</ul>	
+			</div>
 			<div id="calculadora" class="contorno">
 				<form action="recebeForm.php" method="POST">
 					<div id="divFormEsq">
