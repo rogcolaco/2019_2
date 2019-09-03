@@ -83,17 +83,12 @@
                $numeroDepartamento = $departamentos[$j]["numero"];
                debug($idDepartamentoFuncionario);
                debug($numeroDepartamento);
-               //debug($departamentos[$j]["nome"]);
-               
                
                if($idDepartamentoFuncionario==$numeroDepartamento){
-                  echo("entrou");
                   /*debug($idDepartamentoFuncionario);
                   debug($numeroDepartamento);
                   debug($departamentos[$j]["nome"]);*/
                }
-
-
             }
          }
          
